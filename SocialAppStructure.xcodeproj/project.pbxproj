@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A42B3FB24C2C46D006AF1EA /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42B3FA24C2C46D006AF1EA /* AuthorizationView.swift */; };
+		0A42B3FC24C2C46D006AF1EA /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42B3FA24C2C46D006AF1EA /* AuthorizationView.swift */; };
+		0A42B3FF24C2C85D006AF1EA /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42B3FE24C2C85D006AF1EA /* AppConstant.swift */; };
+		0A42B40024C2C85D006AF1EA /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42B3FE24C2C85D006AF1EA /* AppConstant.swift */; };
+		0A7BD68C24C384290028FE78 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0A7BD68B24C384290028FE78 /* IQKeyboardManagerSwift */; };
+		0A7BD68F24C3888F0028FE78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BD68E24C3888F0028FE78 /* HomeView.swift */; };
+		0A7E9EB124C2E0DB00FEF507 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E9EB024C2E0DB00FEF507 /* LoginView.swift */; };
+		0A7E9EB224C2E0DB00FEF507 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E9EB024C2E0DB00FEF507 /* LoginView.swift */; };
+		0A7E9EB424C2E0EB00FEF507 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E9EB324C2E0EB00FEF507 /* RegisterView.swift */; };
+		0A7E9EB524C2E0EB00FEF507 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E9EB324C2E0EB00FEF507 /* RegisterView.swift */; };
+		0A7E9EB824C2E13000FEF507 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E9EB724C2E13000FEF507 /* AuthModel.swift */; };
+		0A7E9EB924C2E13000FEF507 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E9EB724C2E13000FEF507 /* AuthModel.swift */; };
 		0ABC0C9B24C2BC8C00AF8469 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC0C9A24C2BC8C00AF8469 /* Tests_iOS.swift */; };
 		0ABC0CA624C2BC8C00AF8469 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC0CA524C2BC8C00AF8469 /* Tests_macOS.swift */; };
 		0ABC0CA824C2BC8C00AF8469 /* SocialAppStructureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC0C7F24C2BC8B00AF8469 /* SocialAppStructureApp.swift */; };
 		0ABC0CA924C2BC8C00AF8469 /* SocialAppStructureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC0C7F24C2BC8B00AF8469 /* SocialAppStructureApp.swift */; };
-		0ABC0CAA24C2BC8C00AF8469 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC0C8024C2BC8B00AF8469 /* ContentView.swift */; };
-		0ABC0CAB24C2BC8C00AF8469 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC0C8024C2BC8B00AF8469 /* ContentView.swift */; };
+		0ABC0CAA24C2BC8C00AF8469 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC0C8024C2BC8B00AF8469 /* Splash.swift */; };
+		0ABC0CAB24C2BC8C00AF8469 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC0C8024C2BC8B00AF8469 /* Splash.swift */; };
 		0ABC0CAC24C2BC8C00AF8469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC0C8124C2BC8C00AF8469 /* Assets.xcassets */; };
 		0ABC0CAD24C2BC8C00AF8469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC0C8124C2BC8C00AF8469 /* Assets.xcassets */; };
+		0AFD251824C2C1E700CAB289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD251724C2C1E700CAB289 /* LaunchScreen.storyboard */; };
+		0AFD251924C2C1E700CAB289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD251724C2C1E700CAB289 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A42B3FA24C2C46D006AF1EA /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		0A42B3FE24C2C85D006AF1EA /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		0A7BD68E24C3888F0028FE78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0A7E9EB024C2E0DB00FEF507 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0A7E9EB324C2E0EB00FEF507 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		0A7E9EB724C2E13000FEF507 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		0ABC0C7F24C2BC8B00AF8469 /* SocialAppStructureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppStructureApp.swift; sourceTree = "<group>"; };
-		0ABC0C8024C2BC8B00AF8469 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0ABC0C8024C2BC8B00AF8469 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 		0ABC0C8124C2BC8C00AF8469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ABC0C8624C2BC8C00AF8469 /* SocialAppStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialAppStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABC0C8924C2BC8C00AF8469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +69,7 @@
 		0ABC0CA124C2BC8C00AF8469 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABC0CA524C2BC8C00AF8469 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0ABC0CA724C2BC8C00AF8469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFD251724C2C1E700CAB289 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7BD68C24C384290028FE78 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +105,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A42B3FD24C2C82A006AF1EA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A42B3FE24C2C85D006AF1EA /* AppConstant.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A7BD68D24C388720028FE78 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BD68E24C3888F0028FE78 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0A7E9EAF24C2E0BD00FEF507 /* Autorization */ = {
+			isa = PBXGroup;
+			children = (
+				0A42B3FA24C2C46D006AF1EA /* AuthorizationView.swift */,
+				0A7E9EB024C2E0DB00FEF507 /* LoginView.swift */,
+				0A7E9EB324C2E0EB00FEF507 /* RegisterView.swift */,
+			);
+			path = Autorization;
+			sourceTree = "<group>";
+		};
+		0A7E9EB624C2E12300FEF507 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A7E9EB724C2E13000FEF507 /* AuthModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A7E9EBA24C2E15D00FEF507 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC0C7F24C2BC8B00AF8469 /* SocialAppStructureApp.swift */,
+				0A7E9EBB24C2E17000FEF507 /* Splash */,
+				0A7E9EAF24C2E0BD00FEF507 /* Autorization */,
+				0A7BD68D24C388720028FE78 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A7E9EBB24C2E17000FEF507 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0ABC0C8024C2BC8B00AF8469 /* Splash.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		0ABC0C7924C2BC8B00AF8469 = {
 			isa = PBXGroup;
 			children = (
+				0AFD251624C2C1C800CAB289 /* Launch Screen */,
 				0ABC0C7E24C2BC8B00AF8469 /* Shared */,
 				0ABC0C8824C2BC8C00AF8469 /* iOS */,
 				0ABC0C8F24C2BC8C00AF8469 /* macOS */,
+				0A42B3FD24C2C82A006AF1EA /* Helpers */,
 				0ABC0C9924C2BC8C00AF8469 /* Tests iOS */,
 				0ABC0CA424C2BC8C00AF8469 /* Tests macOS */,
 				0ABC0C8724C2BC8C00AF8469 /* Products */,
@@ -98,8 +175,8 @@
 		0ABC0C7E24C2BC8B00AF8469 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				0ABC0C7F24C2BC8B00AF8469 /* SocialAppStructureApp.swift */,
-				0ABC0C8024C2BC8B00AF8469 /* ContentView.swift */,
+				0A7E9EB624C2E12300FEF507 /* Models */,
+				0A7E9EBA24C2E15D00FEF507 /* Views */,
 				0ABC0C8124C2BC8C00AF8469 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -151,6 +228,14 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		0AFD251624C2C1C800CAB289 /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0AFD251724C2C1E700CAB289 /* LaunchScreen.storyboard */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +252,9 @@
 			dependencies = (
 			);
 			name = "SocialAppStructure (iOS)";
+			packageProductDependencies = (
+				0A7BD68B24C384290028FE78 /* IQKeyboardManagerSwift */,
+			);
 			productName = "SocialAppStructure (iOS)";
 			productReference = 0ABC0C8624C2BC8C00AF8469 /* SocialAppStructure.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +346,9 @@
 				Base,
 			);
 			mainGroup = 0ABC0C7924C2BC8B00AF8469;
+			packageReferences = (
+				0A7BD68A24C384280028FE78 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 0ABC0C8724C2BC8C00AF8469 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABC0CAC24C2BC8C00AF8469 /* Assets.xcassets in Resources */,
+				0AFD251824C2C1E700CAB289 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABC0CAD24C2BC8C00AF8469 /* Assets.xcassets in Resources */,
+				0AFD251924C2C1E700CAB289 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +401,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ABC0CAA24C2BC8C00AF8469 /* ContentView.swift in Sources */,
+				0ABC0CAA24C2BC8C00AF8469 /* Splash.swift in Sources */,
 				0ABC0CA824C2BC8C00AF8469 /* SocialAppStructureApp.swift in Sources */,
+				0A7E9EB824C2E13000FEF507 /* AuthModel.swift in Sources */,
+				0A42B3FB24C2C46D006AF1EA /* AuthorizationView.swift in Sources */,
+				0A7E9EB424C2E0EB00FEF507 /* RegisterView.swift in Sources */,
+				0A7BD68F24C3888F0028FE78 /* HomeView.swift in Sources */,
+				0A7E9EB124C2E0DB00FEF507 /* LoginView.swift in Sources */,
+				0A42B3FF24C2C85D006AF1EA /* AppConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +416,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ABC0CAB24C2BC8C00AF8469 /* ContentView.swift in Sources */,
+				0ABC0CAB24C2BC8C00AF8469 /* Splash.swift in Sources */,
 				0ABC0CA924C2BC8C00AF8469 /* SocialAppStructureApp.swift in Sources */,
+				0A7E9EB924C2E13000FEF507 /* AuthModel.swift in Sources */,
+				0A42B3FC24C2C46D006AF1EA /* AuthorizationView.swift in Sources */,
+				0A7E9EB524C2E0EB00FEF507 /* RegisterView.swift in Sources */,
+				0A7E9EB224C2E0DB00FEF507 /* LoginView.swift in Sources */,
+				0A42B40024C2C85D006AF1EA /* AppConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +790,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A7BD68A24C384280028FE78 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A7BD68B24C384290028FE78 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A7BD68A24C384280028FE78 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0ABC0C7A24C2BC8B00AF8469 /* Project object */;
 }
