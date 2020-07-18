@@ -478,7 +478,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftfox.SocialAppStructure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftfox.SocialAppStructureSwiftUI;
 				PRODUCT_NAME = SocialAppStructure;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -499,7 +499,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftfox.SocialAppStructure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftfox.SocialAppStructureSwiftUI;
 				PRODUCT_NAME = SocialAppStructure;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
